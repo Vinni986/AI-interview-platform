@@ -50,3 +50,15 @@ This AI-powered interview system revolutionizes the hiring process by combining 
 ## 🛠️ Tech Stack
 
 ### Frontend
+React 18.x - UI Framework
+TypeScript - Type Safety
+React Router v6 - Client-side Routing
+Tailwind CSS - Styling
+Lucide React - Icon Library
+Sonner - Toast Notifications
+
+### AI & Backend
+ElevenLabs API - Conversational AI
+n8n - Workflow Automation
+REST APIs - Data Communication
+WebRTC - Real-time Audio
