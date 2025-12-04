@@ -26,6 +26,8 @@ This AI-powered interview system revolutionizes the hiring process by combining 
 - Dynamic follow-up questions based on candidate answers
 - Live transcription and session recording
 - Split-screen interview interface
+<img width="1442" height="811" alt="Screenshot from 2025-12-04 02-28-47" src="https://github.com/user-attachments/assets/a33b5587-2317-44e7-9c9a-0cae2b6a6c17" />
+
 
 ### 📋 Smart Application Processing
 - PDF CV upload with validation (type, size limits)
@@ -47,6 +49,13 @@ This AI-powered interview system revolutionizes the hiring process by combining 
 - Interview recordings and transcripts
 - Integration with existing HR tools via n8n
 - Customizable evaluation criteria
+- <img width="1905" height="892" alt="Screenshot from 2025-12-04 21-24-36" src="https://github.com/user-attachments/assets/de795887-b4bd-4cb1-8d1a-ef7995eaed29" />
+<img width="1905" height="892" alt="Screenshot from 2025-12-04 21-24-17" src="https://github.com/user-attachments/assets/8992c67b-78f8-41af-85da-7be26caf578b" />
+
+
+
+<img width="1905" height="892" alt="Screenshot from 2025-12-04 21-26-26" src="https://github.com/user-attachments/assets/2594123f-3256-47f3-a40d-89c65c9d0911" />
+
 
 ---
 
