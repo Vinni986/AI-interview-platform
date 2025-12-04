@@ -62,3 +62,20 @@ ElevenLabs API - Conversational AI
 n8n - Workflow Automation
 REST APIs - Data Communication
 WebRTC - Real-time Audio
+
+⚙️ Configuration
+ElevenLabs Setup
+Create a Conversational AI Agent
+
+Visit ElevenLabs Dashboard
+Click "Create New Agent"
+Configure agent personality (e.g., "Professional HR Interviewer")
+Add interview questions and conversation flow
+Copy the Agent ID
+Update configuration
+
+TypeScript
+
+elevenLabs: {
+  agentId: 'agent_xxxxxxxxxxxxxxxx', // Paste your Agent ID
+}
