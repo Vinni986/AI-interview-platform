@@ -12,6 +12,9 @@ This AI-powered interview system revolutionizes the hiring process by combining 
 - 🔄 End-to-end workflow automation with n8n
 - 🎨 Modern, responsive UI built with React & TypeScript
 - 🔒 Secure file handling and data privacy
+<img width="1905" height="892" alt="Screenshot from 2025-12-04 21-29-00" src="https://github.com/user-attachments/assets/1267e419-c684-43c4-a7d1-70f9ae66193f" />
+
+
 
 ---
 
