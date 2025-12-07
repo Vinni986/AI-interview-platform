@@ -1,34 +1,40 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import HomePage from "./components/HomePage";
 import HRLogin from "./components/HRLogin";
+import HRSignup from "./components/HRSignup";
 import HRDashboard from "./components/HRDashboard";
 import InterviewPortal from "./components/CandidateDashboard";
-import InterviewLive from "./components/InterviewLive";   
+import InterviewLive from "./components/InterviewLive";
+import ProtectedRoute from "./components/ProtectedRoute";
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Routes>
-        <Route
-          path="/"
-          element={<HomePage onHRLogin={() => (window.location.href = "/hr-login")} />}
-        />
+        {/* Home */}
+        <Route path="/" element={<HomePage />} />
 
+        {/* HR Auth */}
         <Route path="/hr-login" element={<HRLogin />} />
+        <Route path="/hr-signup" element={<HRSignup />} />
 
-        <Route path="/hr-dashboard" element={<HRDashboard />} />
-
-        {/* Candidate Waiting Room */}
-        <Route path="/interview" element={<InterviewPortal />} />
-
-        {/* Candidate LIVE Interview Page */}
-        <Route path="/interview/live" element={<InterviewLive />} />   {/* <-- FIX */}
-
-        {/* fallback */}
+        {/* HR Dashboard with protection */}
         <Route
-          path="*"
-          element={<HomePage onHRLogin={() => (window.location.href = "/hr-login")} />}
+          path="/hr-dashboard"
+          element={
+            <ProtectedRoute>
+              <HRDashboard />
+            </ProtectedRoute>
+          }
         />
+
+        {/* Candidate Pages */}
+        <Route path="/interview" element={<InterviewPortal />} />
+        <Route path="/interview/live" element={<InterviewLive />} />
+
+        {/* Fallback */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   );
